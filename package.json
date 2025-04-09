@@ -1,0 +1,24 @@
+{
+  "name": "rental-dapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test",
+    "compile": "npx hardhat compile"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@typechain/hardhat": "^9.1.0",
+    "@typechain/ethers-v6": "^0.5.1",
+    "hardhat": "^2.22.19",
+    "typescript": "^5.5.4",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "ethers": "^6.13.2"
+  }
+}
