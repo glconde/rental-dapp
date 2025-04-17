@@ -12,13 +12,14 @@
   "description": "",
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
-    "@typechain/hardhat": "^9.1.0",
     "@typechain/ethers-v6": "^0.5.1",
+    "@typechain/hardhat": "^9.1.0",
     "hardhat": "^2.22.19",
-    "typescript": "^5.5.4",
-    "ts-node": "^10.9.2"
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
   },
   "dependencies": {
+    "dotenv": "^16.5.0",
     "ethers": "^6.13.2"
   }
 }
